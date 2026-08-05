@@ -1,0 +1,32 @@
+schema_version: "1.0"
+
+id: mermicorn-graphic-ai
+display_name: Mermicorn Graphic AI
+owner: cherry
+lane: core
+visibility: public
+status: foundation
+
+purpose:
+  problem: Deliver consistent, high-quality visual assets across all Mermicorn verticals.
+  audience:
+    - Cherry
+    - vertical projects needing portfolio imagery
+
+shared_services:
+  boot: mermicorn-mega-boot
+  memory: mermicorn-memory
+  token_efficiency: mermicorn-token-saver
+  graphics: mermicorn-graphic-ai
+  commerce: mermicorn-commerce-ai
+
+privacy:
+  public:
+    - templates
+    - sanitized portfolio samples
+  private:
+    - unpublished source files
+
+first_proof:
+  artifact: ravewear-visual-asset-pack
+  status: planned
